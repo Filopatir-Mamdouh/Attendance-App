@@ -28,13 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.close = new System.Windows.Forms.PictureBox();
-            this.Title = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.Title = new System.Windows.Forms.Label();
+            this.close = new System.Windows.Forms.PictureBox();
+            this.controlPanel = new System.Windows.Forms.Panel();
+            this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.close)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.close)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -48,16 +51,17 @@
             this.panel1.Size = new System.Drawing.Size(1189, 44);
             this.panel1.TabIndex = 0;
             // 
-            // close
+            // pictureBox1
             // 
-            this.close.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.close.Image = global::Attendance_app.Properties.Resources.icons8_cancel_48;
-            this.close.Location = new System.Drawing.Point(2, 2);
-            this.close.Name = "close";
-            this.close.Size = new System.Drawing.Size(41, 39);
-            this.close.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.close.TabIndex = 0;
-            this.close.TabStop = false;
+            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Right;
+            this.pictureBox1.Image = global::Attendance_app.Properties.Resources.image;
+            this.pictureBox1.Location = new System.Drawing.Point(1148, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(41, 44);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 2;
+            this.pictureBox1.TabStop = false;
             // 
             // Title
             // 
@@ -72,17 +76,29 @@
             this.Title.Text = "نظام حضور";
             this.Title.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // pictureBox1
+            // close
             // 
-            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Right;
-            this.pictureBox1.Image = global::Attendance_app.Properties.Resources.image;
-            this.pictureBox1.Location = new System.Drawing.Point(1148, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(41, 44);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 2;
-            this.pictureBox1.TabStop = false;
+            this.close.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.close.Image = global::Attendance_app.Properties.Resources.icons8_cancel_48;
+            this.close.Location = new System.Drawing.Point(2, 2);
+            this.close.Name = "close";
+            this.close.Size = new System.Drawing.Size(41, 39);
+            this.close.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.close.TabIndex = 0;
+            this.close.TabStop = false;
+            // 
+            // controlPanel
+            // 
+            this.controlPanel.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.controlPanel.Location = new System.Drawing.Point(859, 65);
+            this.controlPanel.Name = "controlPanel";
+            this.controlPanel.Size = new System.Drawing.Size(306, 555);
+            this.controlPanel.TabIndex = 1;
+            // 
+            // guna2Elipse1
+            // 
+            this.guna2Elipse1.BorderRadius = 1;
+            this.guna2Elipse1.TargetControl = this.controlPanel;
             // 
             // Attendance
             // 
@@ -90,6 +106,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(1189, 650);
+            this.Controls.Add(this.controlPanel);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Attendance";
@@ -98,8 +115,8 @@
             this.Text = "Attendace";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.close)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.close)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -110,5 +127,7 @@
         private PictureBox close;
         private Label Title;
         private PictureBox pictureBox1;
+        private Panel controlPanel;
+        private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
     }
 }
