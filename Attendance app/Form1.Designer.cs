@@ -54,9 +54,9 @@
             // pictureBox1
             // 
             this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Right;
+            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Left;
             this.pictureBox1.Image = global::Attendance_app.Properties.Resources.image;
-            this.pictureBox1.Location = new System.Drawing.Point(1148, 0);
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(41, 44);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -79,10 +79,11 @@
             // close
             // 
             this.close.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.close.Dock = System.Windows.Forms.DockStyle.Right;
             this.close.Image = global::Attendance_app.Properties.Resources.icons8_cancel_48;
-            this.close.Location = new System.Drawing.Point(2, 2);
+            this.close.Location = new System.Drawing.Point(1148, 0);
             this.close.Name = "close";
-            this.close.Size = new System.Drawing.Size(41, 39);
+            this.close.Size = new System.Drawing.Size(41, 44);
             this.close.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.close.TabIndex = 0;
             this.close.TabStop = false;
@@ -97,7 +98,7 @@
             // 
             // guna2Elipse1
             // 
-            this.guna2Elipse1.BorderRadius = 1;
+            this.guna2Elipse1.BorderRadius = 8;
             this.guna2Elipse1.TargetControl = this.controlPanel;
             // 
             // Attendance
@@ -112,6 +113,7 @@
             this.Name = "Attendance";
             this.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.RightToLeftLayout = true;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Attendace";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
