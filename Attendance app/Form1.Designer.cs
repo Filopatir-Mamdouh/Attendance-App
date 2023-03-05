@@ -35,6 +35,9 @@
             this.close = new System.Windows.Forms.PictureBox();
             this.controlPanel = new System.Windows.Forms.Panel();
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.guna2Elipse2 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.dataTablePanel = new System.Windows.Forms.Panel();
+            this.guna2Elipse3 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.close)).BeginInit();
@@ -87,13 +90,14 @@
             this.close.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.close.TabIndex = 0;
             this.close.TabStop = false;
+            this.close.Click += new System.EventHandler(this.close_Click);
             // 
             // controlPanel
             // 
             this.controlPanel.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.controlPanel.Location = new System.Drawing.Point(859, 65);
+            this.controlPanel.Location = new System.Drawing.Point(859, 108);
             this.controlPanel.Name = "controlPanel";
-            this.controlPanel.Size = new System.Drawing.Size(306, 555);
+            this.controlPanel.Size = new System.Drawing.Size(306, 512);
             this.controlPanel.TabIndex = 1;
             // 
             // guna2Elipse1
@@ -101,12 +105,31 @@
             this.guna2Elipse1.BorderRadius = 8;
             this.guna2Elipse1.TargetControl = this.controlPanel;
             // 
+            // guna2Elipse2
+            // 
+            this.guna2Elipse2.BorderRadius = 8;
+            this.guna2Elipse2.TargetControl = this.dataTablePanel;
+            // 
+            // dataTablePanel
+            // 
+            this.dataTablePanel.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.dataTablePanel.Location = new System.Drawing.Point(12, 108);
+            this.dataTablePanel.Name = "dataTablePanel";
+            this.dataTablePanel.Size = new System.Drawing.Size(808, 512);
+            this.dataTablePanel.TabIndex = 2;
+            // 
+            // guna2Elipse3
+            // 
+            this.guna2Elipse3.BorderRadius = 8;
+            this.guna2Elipse3.TargetControl = this.dataTablePanel;
+            // 
             // Attendance
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(1189, 650);
+            this.Controls.Add(this.dataTablePanel);
             this.Controls.Add(this.controlPanel);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -131,5 +154,8 @@
         private PictureBox pictureBox1;
         private Panel controlPanel;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
+        private Guna.UI2.WinForms.Guna2Elipse guna2Elipse2;
+        private Panel dataTablePanel;
+        private Guna.UI2.WinForms.Guna2Elipse guna2Elipse3;
     }
 }
