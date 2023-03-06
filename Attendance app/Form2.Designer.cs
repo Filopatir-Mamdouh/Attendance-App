@@ -137,6 +137,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange;
             this.ClientSize = new System.Drawing.Size(518, 197);
             this.Controls.Add(this.Accept);
             this.Controls.Add(this.guna2DateTimePicker2);
@@ -150,7 +151,6 @@
             this.RightToLeftLayout = true;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "popupForm";
-            this.TopMost = true;
             this.ResumeLayout(false);
             this.PerformLayout();
 
