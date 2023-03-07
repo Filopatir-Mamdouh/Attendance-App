@@ -42,24 +42,21 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges10 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges11 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges12 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges13 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges14 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges13 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges14 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges15 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges16 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges17 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges18 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges19 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges20 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.Title = new System.Windows.Forms.Label();
             this.close = new System.Windows.Forms.PictureBox();
             this.controlPanel = new System.Windows.Forms.Panel();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
-            this.label6 = new System.Windows.Forms.Label();
             this.guna2ComboBox5 = new Guna.UI2.WinForms.Guna2ComboBox();
             this.label5 = new System.Windows.Forms.Label();
             this.guna2ComboBox4 = new Guna.UI2.WinForms.Guna2ComboBox();
@@ -70,7 +67,6 @@
             this.guna2ComboBox1 = new Guna.UI2.WinForms.Guna2ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2TextBox2 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2Elipse2 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2Elipse3 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
@@ -87,17 +83,18 @@
             // 
             // panel1
             // 
+            resources.ApplyResources(this.panel1, "panel1");
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(80)))), ((int)(((byte)(163)))));
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.Title);
             this.panel1.Controls.Add(this.close);
-            resources.ApplyResources(this.panel1, "panel1");
             this.panel1.Name = "panel1";
+            this.panel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseDown);
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
             resources.ApplyResources(this.pictureBox1, "pictureBox1");
+            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox1.Image = global::Attendance_app.Properties.Resources.image;
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.TabStop = false;
@@ -110,8 +107,8 @@
             // 
             // close
             // 
-            this.close.Cursor = System.Windows.Forms.Cursors.Hand;
             resources.ApplyResources(this.close, "close");
+            this.close.Cursor = System.Windows.Forms.Cursors.Hand;
             this.close.Image = global::Attendance_app.Properties.Resources.icons8_cancel_48;
             this.close.Name = "close";
             this.close.TabStop = false;
@@ -119,9 +116,9 @@
             // 
             // controlPanel
             // 
+            resources.ApplyResources(this.controlPanel, "controlPanel");
             this.controlPanel.BackColor = System.Drawing.SystemColors.ControlLight;
             this.controlPanel.Controls.Add(this.guna2Button1);
-            this.controlPanel.Controls.Add(this.label6);
             this.controlPanel.Controls.Add(this.guna2ComboBox5);
             this.controlPanel.Controls.Add(this.label5);
             this.controlPanel.Controls.Add(this.guna2ComboBox4);
@@ -132,31 +129,24 @@
             this.controlPanel.Controls.Add(this.guna2ComboBox1);
             this.controlPanel.Controls.Add(this.label1);
             this.controlPanel.Controls.Add(this.guna2TextBox1);
-            this.controlPanel.Controls.Add(this.guna2TextBox2);
-            resources.ApplyResources(this.controlPanel, "controlPanel");
             this.controlPanel.Name = "controlPanel";
             // 
             // guna2Button1
             // 
+            resources.ApplyResources(this.guna2Button1, "guna2Button1");
             this.guna2Button1.CustomizableEdges = customizableEdges1;
             this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.guna2Button1.FillColor = System.Drawing.Color.SteelBlue;
-            resources.ApplyResources(this.guna2Button1, "guna2Button1");
             this.guna2Button1.ForeColor = System.Drawing.Color.White;
             this.guna2Button1.Name = "guna2Button1";
             this.guna2Button1.ShadowDecoration.CustomizableEdges = customizableEdges2;
             // 
-            // label6
-            // 
-            resources.ApplyResources(this.label6, "label6");
-            this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(80)))), ((int)(((byte)(163)))));
-            this.label6.Name = "label6";
-            // 
             // guna2ComboBox5
             // 
+            resources.ApplyResources(this.guna2ComboBox5, "guna2ComboBox5");
             this.guna2ComboBox5.AutoRoundedCorners = true;
             this.guna2ComboBox5.BackColor = System.Drawing.Color.Transparent;
             this.guna2ComboBox5.BorderRadius = 17;
@@ -165,7 +155,6 @@
             this.guna2ComboBox5.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.guna2ComboBox5.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2ComboBox5.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            resources.ApplyResources(this.guna2ComboBox5, "guna2ComboBox5");
             this.guna2ComboBox5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(80)))), ((int)(((byte)(163)))));
             this.guna2ComboBox5.Items.AddRange(new object[] {
             resources.GetString("guna2ComboBox5.Items"),
@@ -184,6 +173,7 @@
             // 
             // guna2ComboBox4
             // 
+            resources.ApplyResources(this.guna2ComboBox4, "guna2ComboBox4");
             this.guna2ComboBox4.AutoRoundedCorners = true;
             this.guna2ComboBox4.BackColor = System.Drawing.Color.Transparent;
             this.guna2ComboBox4.BorderRadius = 17;
@@ -192,15 +182,7 @@
             this.guna2ComboBox4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.guna2ComboBox4.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2ComboBox4.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            resources.ApplyResources(this.guna2ComboBox4, "guna2ComboBox4");
             this.guna2ComboBox4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(80)))), ((int)(((byte)(163)))));
-            this.guna2ComboBox4.Items.AddRange(new object[] {
-            resources.GetString("guna2ComboBox4.Items"),
-            resources.GetString("guna2ComboBox4.Items1"),
-            resources.GetString("guna2ComboBox4.Items2"),
-            resources.GetString("guna2ComboBox4.Items3"),
-            resources.GetString("guna2ComboBox4.Items4"),
-            resources.GetString("guna2ComboBox4.Items5")});
             this.guna2ComboBox4.Name = "guna2ComboBox4";
             this.guna2ComboBox4.ShadowDecoration.CustomizableEdges = customizableEdges6;
             this.guna2ComboBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -213,6 +195,7 @@
             // 
             // guna2ComboBox3
             // 
+            resources.ApplyResources(this.guna2ComboBox3, "guna2ComboBox3");
             this.guna2ComboBox3.AutoRoundedCorners = true;
             this.guna2ComboBox3.BackColor = System.Drawing.Color.Transparent;
             this.guna2ComboBox3.BorderRadius = 17;
@@ -221,7 +204,6 @@
             this.guna2ComboBox3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.guna2ComboBox3.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2ComboBox3.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            resources.ApplyResources(this.guna2ComboBox3, "guna2ComboBox3");
             this.guna2ComboBox3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(80)))), ((int)(((byte)(163)))));
             this.guna2ComboBox3.Items.AddRange(new object[] {
             resources.GetString("guna2ComboBox3.Items"),
@@ -248,6 +230,7 @@
             // 
             // guna2ComboBox1
             // 
+            resources.ApplyResources(this.guna2ComboBox1, "guna2ComboBox1");
             this.guna2ComboBox1.AutoRoundedCorners = true;
             this.guna2ComboBox1.BackColor = System.Drawing.Color.Transparent;
             this.guna2ComboBox1.BorderRadius = 17;
@@ -256,7 +239,6 @@
             this.guna2ComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.guna2ComboBox1.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2ComboBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            resources.ApplyResources(this.guna2ComboBox1, "guna2ComboBox1");
             this.guna2ComboBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(80)))), ((int)(((byte)(163)))));
             this.guna2ComboBox1.Items.AddRange(new object[] {
             resources.GetString("guna2ComboBox1.Items"),
@@ -277,6 +259,7 @@
             // 
             // guna2TextBox1
             // 
+            resources.ApplyResources(this.guna2TextBox1, "guna2TextBox1");
             this.guna2TextBox1.BorderRadius = 17;
             this.guna2TextBox1.CustomizableEdges = customizableEdges11;
             this.guna2TextBox1.DefaultText = "";
@@ -285,7 +268,6 @@
             this.guna2TextBox1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.guna2TextBox1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.guna2TextBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            resources.ApplyResources(this.guna2TextBox1, "guna2TextBox1");
             this.guna2TextBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(80)))), ((int)(((byte)(163)))));
             this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2TextBox1.Name = "guna2TextBox1";
@@ -294,26 +276,6 @@
             this.guna2TextBox1.SelectedText = "";
             this.guna2TextBox1.ShadowDecoration.CustomizableEdges = customizableEdges12;
             this.guna2TextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // guna2TextBox2
-            // 
-            this.guna2TextBox2.BorderRadius = 17;
-            this.guna2TextBox2.CustomizableEdges = customizableEdges13;
-            this.guna2TextBox2.DefaultText = "";
-            this.guna2TextBox2.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox2.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox2.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            resources.ApplyResources(this.guna2TextBox2, "guna2TextBox2");
-            this.guna2TextBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(80)))), ((int)(((byte)(163)))));
-            this.guna2TextBox2.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox2.Name = "guna2TextBox2";
-            this.guna2TextBox2.PasswordChar = '\0';
-            this.guna2TextBox2.PlaceholderText = "";
-            this.guna2TextBox2.SelectedText = "";
-            this.guna2TextBox2.ShadowDecoration.CustomizableEdges = customizableEdges14;
-            this.guna2TextBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // guna2Elipse1
             // 
@@ -331,6 +293,7 @@
             // 
             // guna2DataGridView1
             // 
+            resources.ApplyResources(this.guna2DataGridView1, "guna2DataGridView1");
             dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
             this.guna2DataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.guna2DataGridView1.BackgroundColor = System.Drawing.SystemColors.ScrollBar;
@@ -342,7 +305,6 @@
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.guna2DataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
-            resources.ApplyResources(this.guna2DataGridView1, "guna2DataGridView1");
             this.guna2DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
@@ -380,45 +342,45 @@
             // 
             // guna2Button2
             // 
+            resources.ApplyResources(this.guna2Button2, "guna2Button2");
             this.guna2Button2.BorderRadius = 17;
-            this.guna2Button2.CustomizableEdges = customizableEdges15;
+            this.guna2Button2.CustomizableEdges = customizableEdges13;
             this.guna2Button2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.guna2Button2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.guna2Button2.FillColor = System.Drawing.Color.IndianRed;
-            resources.ApplyResources(this.guna2Button2, "guna2Button2");
             this.guna2Button2.ForeColor = System.Drawing.Color.White;
             this.guna2Button2.Name = "guna2Button2";
-            this.guna2Button2.ShadowDecoration.CustomizableEdges = customizableEdges16;
+            this.guna2Button2.ShadowDecoration.CustomizableEdges = customizableEdges14;
             // 
             // guna2Button3
             // 
+            resources.ApplyResources(this.guna2Button3, "guna2Button3");
             this.guna2Button3.BorderRadius = 17;
-            this.guna2Button3.CustomizableEdges = customizableEdges17;
+            this.guna2Button3.CustomizableEdges = customizableEdges15;
             this.guna2Button3.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button3.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.guna2Button3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.guna2Button3.FillColor = System.Drawing.Color.SeaGreen;
-            resources.ApplyResources(this.guna2Button3, "guna2Button3");
             this.guna2Button3.ForeColor = System.Drawing.Color.White;
             this.guna2Button3.Name = "guna2Button3";
-            this.guna2Button3.ShadowDecoration.CustomizableEdges = customizableEdges18;
+            this.guna2Button3.ShadowDecoration.CustomizableEdges = customizableEdges16;
             // 
             // guna2Button4
             // 
+            resources.ApplyResources(this.guna2Button4, "guna2Button4");
             this.guna2Button4.BorderRadius = 17;
-            this.guna2Button4.CustomizableEdges = customizableEdges19;
+            this.guna2Button4.CustomizableEdges = customizableEdges17;
             this.guna2Button4.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button4.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button4.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.guna2Button4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.guna2Button4.FillColor = System.Drawing.Color.DarkSlateGray;
-            resources.ApplyResources(this.guna2Button4, "guna2Button4");
             this.guna2Button4.ForeColor = System.Drawing.Color.White;
             this.guna2Button4.Name = "guna2Button4";
-            this.guna2Button4.ShadowDecoration.CustomizableEdges = customizableEdges20;
+            this.guna2Button4.ShadowDecoration.CustomizableEdges = customizableEdges18;
             this.guna2Button4.Click += new System.EventHandler(this.guna2Button4_Click);
             // 
             // Attendance
@@ -460,7 +422,6 @@
         private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox1;
         private Label label2;
         private Guna.UI2.WinForms.Guna2Button guna2Button1;
-        private Label label6;
         private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox5;
         private Label label5;
         private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox4;
@@ -468,10 +429,10 @@
         private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox3;
         private Label label3;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox2;
         private Guna.UI2.WinForms.Guna2DataGridView guna2DataGridView1;
         private Guna.UI2.WinForms.Guna2Button guna2Button2;
         private Guna.UI2.WinForms.Guna2Button guna2Button3;
         private Guna.UI2.WinForms.Guna2Button guna2Button4;
+        private Guna.UI2.WinForms.Guna2DateTimePicker guna2DateTimePicker1;
     }
 }

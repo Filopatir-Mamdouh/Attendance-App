@@ -57,254 +57,449 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="pictureBox1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Left</value>
-  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
+  <data name="guna2ComboBox5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>78, 390</value>
   </data>
-  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>41, 44</value>
+  <data name="guna2Button4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>173, 51</value>
   </data>
-  <data name="pictureBox1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>StretchImage</value>
+  <data name="&gt;&gt;guna2Button2.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>controlPanel</value>
+  </data>
+  <data name="&gt;&gt;guna2Button2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
   <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
-    <value>pictureBox1</value>
+  <data name="guna2ComboBox3.ItemHeight" type="System.Int32, mscorlib">
+    <value>30</value>
   </data>
-  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;dateTimePicker1.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="Title.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="Title.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="Title.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Traditional Arabic, 20pt, style=Bold</value>
-  </data>
-  <data name="Title.Location" type="System.Drawing.Point, System.Drawing">
-    <value>538, 1</value>
-  </data>
-  <data name="Title.Size" type="System.Drawing.Size, System.Drawing">
-    <value>103, 42</value>
-  </data>
-  <data name="Title.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="Title.Text" xml:space="preserve">
-    <value>نظام حضور</value>
-  </data>
-  <data name="Title.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
-  </data>
-  <data name="&gt;&gt;Title.Name" xml:space="preserve">
-    <value>Title</value>
-  </data>
-  <data name="&gt;&gt;Title.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Title.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;Title.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="close.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Right</value>
-  </data>
-  <data name="close.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1148, 0</value>
-  </data>
-  <data name="close.Size" type="System.Drawing.Size, System.Drawing">
-    <value>41, 44</value>
-  </data>
-  <data name="close.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>StretchImage</value>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="close.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;close.Name" xml:space="preserve">
-    <value>close</value>
+  <data name="&gt;&gt;guna2DataGridView1.Name" xml:space="preserve">
+    <value>guna2DataGridView1</value>
   </data>
-  <data name="&gt;&gt;close.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;guna2Button4.Name" xml:space="preserve">
+    <value>guna2Button4</value>
+  </data>
+  <data name="guna2TextBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 41</value>
+  </data>
+  <data name="&gt;&gt;guna2Elipse3.Name" xml:space="preserve">
+    <value>guna2Elipse3</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="guna2DataGridView1.ColumnHeadersHeight" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="guna2ComboBox5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10pt</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 14pt</value>
+  </data>
+  <data name="guna2ComboBox5.Items3" xml:space="preserve">
+    <value>الرابعة</value>
+  </data>
+  <data name="$this.RightToLeftLayout" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;guna2DataGridView1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="guna2ComboBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>78, 50</value>
+  </data>
+  <data name="&gt;&gt;guna2DateTimePicker1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;controlPanel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;guna2ComboBox1.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="guna2ComboBox1.ItemHeight" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1189, 771</value>
+  </data>
+  <data name="label5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 14pt</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Attendance</value>
+  </data>
+  <data name="guna2TextBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="guna2ComboBox3.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
   </data>
   <data name="&gt;&gt;close.Parent" xml:space="preserve">
     <value>panel1</value>
   </data>
-  <data name="&gt;&gt;close.ZOrder" xml:space="preserve">
-    <value>2</value>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
-  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, -1</value>
+  <data name="guna2ComboBox5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 36</value>
   </data>
-  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1189, 44</value>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
-  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;guna2DataGridView1.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2DataGridView, Guna.UI2, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;controlPanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;guna2DateTimePicker1.Parent" xml:space="preserve">
+    <value>controlPanel</value>
+  </data>
+  <data name="guna2ComboBox1.Items2" xml:space="preserve">
+    <value>الأثنين</value>
+  </data>
+  <data name="Title.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 42</value>
+  </data>
+  <data name="guna2ComboBox4.Items3" xml:space="preserve">
+    <value>الثلاثاء</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 25</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="close.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="guna2ComboBox4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>78, 305</value>
+  </data>
+  <data name="Title.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Traditional Arabic, 20pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>controlPanel</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 25</value>
+  </data>
+  <data name="&gt;&gt;Title.Name" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="&gt;&gt;Title.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="guna2ComboBox4.Items4" xml:space="preserve">
+    <value>الأربعاء</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>controlPanel</value>
+  </data>
+  <data name="&gt;&gt;guna2ComboBox1.Parent" xml:space="preserve">
+    <value>controlPanel</value>
+  </data>
+  <data name="guna2ComboBox5.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="guna2ComboBox3.Items" xml:space="preserve">
+    <value>Mechatronics</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;dateTimePicker1.Name" xml:space="preserve">
+    <value>dateTimePicker1</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="guna2Button4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 14pt, style=Bold</value>
+  </data>
+  <data name="guna2ComboBox3.Items1" xml:space="preserve">
+    <value>IT</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="&gt;&gt;guna2ComboBox4.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="guna2Button4.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="guna2DataGridView1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 108</value>
+  </data>
+  <data name="&gt;&gt;Title.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>233, 355</value>
+  </data>
+  <data name="guna2Button2.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>الساعة</value>
+  </data>
+  <data name="guna2ComboBox3.Items2" xml:space="preserve">
+    <value>Autotronics</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="&gt;&gt;guna2Button4.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="&gt;&gt;guna2TextBox1.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;guna2ComboBox4.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2ComboBox, Guna.UI2, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="guna2Button1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 14pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;guna2TextBox1.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2TextBox, Guna.UI2, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 44</value>
+  </data>
+  <data name="&gt;&gt;guna2DataGridView1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="guna2ComboBox1.Items3" xml:space="preserve">
+    <value>الثلاثاء</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>227, 185</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="guna2Button4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 45</value>
+  </data>
+  <data name="guna2ComboBox3.Items3" xml:space="preserve">
+    <value>Renewable Energy</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>المادة</value>
+  </data>
+  <data name="guna2Button3.Text" xml:space="preserve">
+    <value>استخراج تقرير</value>
+  </data>
+  <data name="guna2ComboBox4.ItemHeight" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 25</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Attendace</value>
+  </data>
+  <data name="guna2Button4.Text" xml:space="preserve">
+    <value>أيام الحضور</value>
+  </data>
+  <data name="&gt;&gt;guna2Button3.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="dateTimePicker1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>42, 478</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>اليوم</value>
+  </data>
+  <data name="guna2DataGridView1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
   <data name="&gt;&gt;panel1.Name" xml:space="preserve">
     <value>panel1</value>
   </data>
-  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="guna2Button1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Times New Roman, 14pt, style=Bold</value>
-  </data>
-  <data name="guna2Button1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>57, 546</value>
-  </data>
-  <data name="guna2Button1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 45</value>
-  </data>
-  <data name="guna2Button1.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="guna2Button1.Text" xml:space="preserve">
-    <value>إضافة</value>
-  </data>
-  <data name="&gt;&gt;guna2Button1.Name" xml:space="preserve">
-    <value>guna2Button1</value>
-  </data>
-  <data name="&gt;&gt;guna2Button1.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
-  </data>
-  <data name="&gt;&gt;guna2Button1.Parent" xml:space="preserve">
-    <value>controlPanel</value>
-  </data>
-  <data name="&gt;&gt;guna2Button1.ZOrder" xml:space="preserve">
+  <data name="guna2ComboBox1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="&gt;&gt;guna2TextBox2.Name" xml:space="preserve">
+    <value>guna2TextBox2</value>
   </data>
-  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 14pt</value>
+  <data name="&gt;&gt;guna2Button4.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
   </data>
-  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>227, 426</value>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
   </data>
-  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>65, 25</value>
+  <data name="&gt;&gt;dateTimePicker1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="label6.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="label6.Text" xml:space="preserve">
-    <value>الساعة</value>
+  <data name="guna2DateTimePicker2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>42, 478</value>
   </data>
   <data name="&gt;&gt;label6.Name" xml:space="preserve">
     <value>label6</value>
   </data>
-  <data name="&gt;&gt;label6.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="guna2Button2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 45</value>
   </data>
-  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
-    <value>controlPanel</value>
+  <data name="&gt;&gt;guna2Elipse3.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Elipse, Guna.UI2, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
   </data>
-  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>227, 426</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>238, 15</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>222, 97</value>
+  </data>
+  <data name="pictureBox1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="&gt;&gt;guna2Button1.Name" xml:space="preserve">
+    <value>guna2Button1</value>
+  </data>
+  <data name="Title.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="guna2ComboBox5.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 10pt</value>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 25</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;guna2Button3.Name" xml:space="preserve">
+    <value>guna2Button3</value>
+  </data>
+  <data name="$this.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
   </data>
   <data name="guna2ComboBox5.ItemHeight" type="System.Int32, mscorlib">
     <value>30</value>
   </data>
-  <data name="guna2ComboBox5.Items" xml:space="preserve">
-    <value>الأولى</value>
-  </data>
-  <data name="guna2ComboBox5.Items1" xml:space="preserve">
-    <value>الثانية</value>
-  </data>
-  <data name="guna2ComboBox5.Items2" xml:space="preserve">
-    <value>الثالثة</value>
-  </data>
-  <data name="guna2ComboBox5.Items3" xml:space="preserve">
-    <value>الرابعة</value>
-  </data>
-  <data name="guna2ComboBox5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>78, 390</value>
-  </data>
-  <data name="guna2ComboBox5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>132, 36</value>
-  </data>
-  <data name="guna2ComboBox5.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;guna2ComboBox5.Name" xml:space="preserve">
-    <value>guna2ComboBox5</value>
-  </data>
-  <data name="&gt;&gt;guna2ComboBox5.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2ComboBox, Guna.UI2, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
-  </data>
-  <data name="&gt;&gt;guna2ComboBox5.Parent" xml:space="preserve">
-    <value>controlPanel</value>
-  </data>
-  <data name="&gt;&gt;guna2ComboBox5.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label5.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 14pt</value>
   </data>
-  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>233, 355</value>
+  <data name="label2.Text" xml:space="preserve">
+    <value>المحاضر</value>
   </data>
-  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>59, 25</value>
+  <data name="guna2ComboBox1.Items4" xml:space="preserve">
+    <value>الأربعاء</value>
   </data>
-  <data name="label5.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
+  <data name="guna2Button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>57, 546</value>
   </data>
-  <data name="label5.Text" xml:space="preserve">
-    <value>الفرقة</value>
+  <data name="controlPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>306, 641</value>
   </data>
-  <data name="&gt;&gt;label5.Name" xml:space="preserve">
-    <value>label5</value>
+  <data name="guna2TextBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>78, 135</value>
   </data>
-  <data name="&gt;&gt;label5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;close.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+  <data name="&gt;&gt;guna2DateTimePicker1.Name" xml:space="preserve">
+    <value>guna2DateTimePicker1</value>
+  </data>
+  <data name="&gt;&gt;guna2Button3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;guna2Button1.Parent" xml:space="preserve">
     <value>controlPanel</value>
   </data>
-  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
-    <value>3</value>
+  <data name="&gt;&gt;guna2ComboBox3.ZOrder" xml:space="preserve">
+    <value>5</value>
   </data>
-  <data name="guna2ComboBox4.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 10pt</value>
+  <data name="guna2ComboBox4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 36</value>
   </data>
-  <data name="guna2ComboBox4.ItemHeight" type="System.Int32, mscorlib">
-    <value>30</value>
+  <data name="&gt;&gt;guna2ComboBox3.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2ComboBox, Guna.UI2, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
   </data>
-  <data name="guna2ComboBox4.Items" xml:space="preserve">
-    <value>السبت</value>
+  <data name="&gt;&gt;guna2Button3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;controlPanel.Name" xml:space="preserve">
+    <value>controlPanel</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>controlPanel</value>
+  </data>
+  <data name="&gt;&gt;controlPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="guna2ComboBox1.Items1" xml:space="preserve">
+    <value>الأحد</value>
+  </data>
+  <data name="&gt;&gt;close.Name" xml:space="preserve">
+    <value>close</value>
+  </data>
+  <data name="guna2ComboBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>78, 220</value>
+  </data>
+  <data name="&gt;&gt;guna2TextBox2.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2TextBox, Guna.UI2, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
   </data>
   <data name="guna2ComboBox4.Items1" xml:space="preserve">
     <value>الأحد</value>
@@ -312,472 +507,331 @@
   <data name="guna2ComboBox4.Items2" xml:space="preserve">
     <value>الأثنين</value>
   </data>
-  <data name="guna2ComboBox4.Items3" xml:space="preserve">
-    <value>الثلاثاء</value>
-  </data>
-  <data name="guna2ComboBox4.Items4" xml:space="preserve">
-    <value>الأربعاء</value>
-  </data>
-  <data name="guna2ComboBox4.Items5" xml:space="preserve">
-    <value>الخميس</value>
-  </data>
-  <data name="guna2ComboBox4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>78, 305</value>
-  </data>
-  <data name="guna2ComboBox4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>132, 36</value>
-  </data>
-  <data name="guna2ComboBox4.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;guna2ComboBox4.Name" xml:space="preserve">
-    <value>guna2ComboBox4</value>
-  </data>
-  <data name="&gt;&gt;guna2ComboBox4.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2ComboBox, Guna.UI2, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
-  </data>
-  <data name="&gt;&gt;guna2ComboBox4.Parent" xml:space="preserve">
-    <value>controlPanel</value>
-  </data>
-  <data name="&gt;&gt;guna2ComboBox4.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 14pt</value>
-  </data>
-  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>230, 271</value>
-  </data>
-  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>59, 25</value>
-  </data>
-  <data name="label4.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="label4.Text" xml:space="preserve">
-    <value>المادة</value>
-  </data>
-  <data name="&gt;&gt;label4.Name" xml:space="preserve">
-    <value>label4</value>
-  </data>
-  <data name="&gt;&gt;label4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
-    <value>controlPanel</value>
-  </data>
-  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="guna2ComboBox3.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 10pt</value>
-  </data>
-  <data name="guna2ComboBox3.ItemHeight" type="System.Int32, mscorlib">
-    <value>30</value>
-  </data>
-  <data name="guna2ComboBox3.Items" xml:space="preserve">
-    <value>Mechatronics</value>
-  </data>
-  <data name="guna2ComboBox3.Items1" xml:space="preserve">
-    <value>IT</value>
-  </data>
-  <data name="guna2ComboBox3.Items2" xml:space="preserve">
-    <value>Autotronics</value>
-  </data>
-  <data name="guna2ComboBox3.Items3" xml:space="preserve">
-    <value>Renewable Energy</value>
-  </data>
-  <data name="guna2ComboBox3.Items4" xml:space="preserve">
-    <value>Prosthetics &amp; Orthotics Technology</value>
-  </data>
-  <data name="guna2ComboBox3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>78, 220</value>
-  </data>
-  <data name="guna2ComboBox3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>132, 36</value>
-  </data>
-  <data name="guna2ComboBox3.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;guna2ComboBox3.Name" xml:space="preserve">
-    <value>guna2ComboBox3</value>
-  </data>
-  <data name="&gt;&gt;guna2ComboBox3.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2ComboBox, Guna.UI2, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
-  </data>
-  <data name="&gt;&gt;guna2ComboBox3.Parent" xml:space="preserve">
-    <value>controlPanel</value>
-  </data>
-  <data name="&gt;&gt;guna2ComboBox3.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 14pt</value>
-  </data>
-  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>227, 185</value>
-  </data>
-  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>66, 25</value>
-  </data>
-  <data name="label3.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="label3.Text" xml:space="preserve">
-    <value>الشعبة</value>
-  </data>
-  <data name="&gt;&gt;label3.Name" xml:space="preserve">
-    <value>label3</value>
+  <data name="guna2ComboBox5.Items1" xml:space="preserve">
+    <value>الثانية</value>
   </data>
   <data name="&gt;&gt;label3.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
-    <value>controlPanel</value>
-  </data>
-  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 14pt</value>
-  </data>
-  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>222, 97</value>
-  </data>
   <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 25</value>
   </data>
-  <data name="label2.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="label2.Text" xml:space="preserve">
-    <value>المحاضر</value>
-  </data>
-  <data name="&gt;&gt;label2.Name" xml:space="preserve">
-    <value>label2</value>
-  </data>
-  <data name="&gt;&gt;label2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
-    <value>controlPanel</value>
-  </data>
-  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="guna2ComboBox1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 10pt</value>
-  </data>
-  <data name="guna2ComboBox1.ItemHeight" type="System.Int32, mscorlib">
-    <value>30</value>
-  </data>
-  <data name="guna2ComboBox1.Items" xml:space="preserve">
-    <value>السبت</value>
-  </data>
-  <data name="guna2ComboBox1.Items1" xml:space="preserve">
-    <value>الأحد</value>
-  </data>
-  <data name="guna2ComboBox1.Items2" xml:space="preserve">
-    <value>الأثنين</value>
-  </data>
-  <data name="guna2ComboBox1.Items3" xml:space="preserve">
-    <value>الثلاثاء</value>
-  </data>
-  <data name="guna2ComboBox1.Items4" xml:space="preserve">
-    <value>الأربعاء</value>
-  </data>
-  <data name="guna2ComboBox1.Items5" xml:space="preserve">
-    <value>الخميس</value>
-  </data>
-  <data name="guna2ComboBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>78, 50</value>
-  </data>
-  <data name="guna2ComboBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>132, 36</value>
-  </data>
-  <data name="guna2ComboBox1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;guna2ComboBox1.Name" xml:space="preserve">
-    <value>guna2ComboBox1</value>
-  </data>
-  <data name="&gt;&gt;guna2ComboBox1.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2ComboBox, Guna.UI2, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
-  </data>
-  <data name="&gt;&gt;guna2ComboBox1.Parent" xml:space="preserve">
-    <value>controlPanel</value>
-  </data>
-  <data name="&gt;&gt;guna2ComboBox1.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 14pt</value>
-  </data>
-  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>238, 15</value>
-  </data>
-  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>50, 25</value>
-  </data>
-  <data name="label1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>اليوم</value>
-  </data>
-  <data name="&gt;&gt;label1.Name" xml:space="preserve">
-    <value>label1</value>
-  </data>
-  <data name="&gt;&gt;label1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
-    <value>controlPanel</value>
-  </data>
-  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="guna2TextBox1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 10pt</value>
-  </data>
-  <data name="guna2TextBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>78, 135</value>
-  </data>
-  <data name="guna2TextBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>132, 41</value>
-  </data>
-  <data name="guna2TextBox1.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="&gt;&gt;guna2TextBox1.Name" xml:space="preserve">
-    <value>guna2TextBox1</value>
-  </data>
-  <data name="&gt;&gt;guna2TextBox1.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2TextBox, Guna.UI2, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
-  </data>
-  <data name="&gt;&gt;guna2TextBox1.Parent" xml:space="preserve">
-    <value>controlPanel</value>
-  </data>
-  <data name="&gt;&gt;guna2TextBox1.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
-  <data name="guna2TextBox2.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 10pt</value>
-  </data>
-  <data name="guna2TextBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>78, 458</value>
-  </data>
-  <data name="guna2TextBox2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>132, 41</value>
-  </data>
-  <data name="guna2TextBox2.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
-  <data name="&gt;&gt;guna2TextBox2.Name" xml:space="preserve">
-    <value>guna2TextBox2</value>
-  </data>
-  <data name="&gt;&gt;guna2TextBox2.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2TextBox, Guna.UI2, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
-  </data>
-  <data name="&gt;&gt;guna2TextBox2.Parent" xml:space="preserve">
-    <value>controlPanel</value>
-  </data>
-  <data name="&gt;&gt;guna2TextBox2.ZOrder" xml:space="preserve">
-    <value>12</value>
-  </data>
-  <data name="controlPanel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>859, 108</value>
-  </data>
-  <data name="controlPanel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>306, 641</value>
-  </data>
-  <data name="controlPanel.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;controlPanel.Name" xml:space="preserve">
-    <value>controlPanel</value>
-  </data>
-  <data name="&gt;&gt;controlPanel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;controlPanel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;controlPanel.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <metadata name="guna2Elipse1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <metadata name="guna2Elipse2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <metadata name="guna2Elipse3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>141, 17</value>
-  </metadata>
-  <data name="guna2DataGridView1.ColumnHeadersHeight" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="guna2DataGridView1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>22, 108</value>
-  </data>
-  <data name="guna2DataGridView1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>805, 641</value>
-  </data>
-  <data name="guna2DataGridView1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;guna2DataGridView1.Name" xml:space="preserve">
-    <value>guna2DataGridView1</value>
-  </data>
-  <data name="&gt;&gt;guna2DataGridView1.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2DataGridView, Guna.UI2, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
-  </data>
-  <data name="&gt;&gt;guna2DataGridView1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;guna2DataGridView1.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="guna2Button2.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Times New Roman, 14pt, style=Bold</value>
-  </data>
-  <data name="guna2Button2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>928, 51</value>
-  </data>
-  <data name="guna2Button2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 45</value>
-  </data>
-  <data name="guna2Button2.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="guna2Button2.Text" xml:space="preserve">
-    <value>مسح</value>
-  </data>
-  <data name="&gt;&gt;guna2Button2.Name" xml:space="preserve">
-    <value>guna2Button2</value>
-  </data>
-  <data name="&gt;&gt;guna2Button2.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
-  </data>
-  <data name="&gt;&gt;guna2Button2.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;guna2Button2.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="guna2Button3.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Times New Roman, 14pt, style=Bold</value>
-  </data>
-  <data name="guna2Button3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>540, 51</value>
-  </data>
-  <data name="guna2Button3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 45</value>
-  </data>
-  <data name="guna2Button3.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
-  <data name="guna2Button3.Text" xml:space="preserve">
-    <value>استخراج تقرير</value>
-  </data>
-  <data name="&gt;&gt;guna2Button3.Name" xml:space="preserve">
-    <value>guna2Button3</value>
-  </data>
-  <data name="&gt;&gt;guna2Button3.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
-  </data>
-  <data name="&gt;&gt;guna2Button3.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;guna2Button3.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="guna2Button4.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Times New Roman, 14pt, style=Bold</value>
-  </data>
-  <data name="guna2Button4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>173, 51</value>
-  </data>
-  <data name="guna2Button4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 45</value>
-  </data>
-  <data name="guna2Button4.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
-  </data>
-  <data name="guna2Button4.Text" xml:space="preserve">
-    <value>أيام الحضور</value>
-  </data>
-  <data name="&gt;&gt;guna2Button4.Name" xml:space="preserve">
-    <value>guna2Button4</value>
-  </data>
-  <data name="&gt;&gt;guna2Button4.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
-  </data>
-  <data name="&gt;&gt;guna2Button4.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;guna2Button4.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <metadata name="$this.Language" type="System.Globalization.CultureInfo, System.Private.CoreLib, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
-    <value>ar-EG</value>
-  </metadata>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>7, 15</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1189, 771</value>
-  </data>
-  <data name="$this.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>Yes</value>
-  </data>
-  <data name="$this.RightToLeftLayout" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
-    <value>CenterScreen</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Attendace</value>
-  </data>
-  <data name="&gt;&gt;guna2Elipse1.Name" xml:space="preserve">
-    <value>guna2Elipse1</value>
+  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
+    <value>pictureBox1</value>
   </data>
   <data name="&gt;&gt;guna2Elipse1.Type" xml:space="preserve">
     <value>Guna.UI2.WinForms.Guna2Elipse, Guna.UI2, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
   </data>
+  <data name="controlPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>859, 108</value>
+  </data>
+  <data name="Title.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="guna2Button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 45</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, -1</value>
+  </data>
+  <data name="&gt;&gt;guna2DateTimePicker1.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2DateTimePicker, Guna.UI2, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;guna2Button4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="guna2ComboBox4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10pt</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1189, 44</value>
+  </data>
+  <data name="&gt;&gt;dateTimePicker1.Parent" xml:space="preserve">
+    <value>controlPanel</value>
+  </data>
+  <data name="&gt;&gt;guna2ComboBox1.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2ComboBox, Guna.UI2, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="guna2ComboBox3.Items4" xml:space="preserve">
+    <value>Prosthetics &amp; Orthotics Technology</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>الشعبة</value>
+  </data>
+  <data name="guna2TextBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 41</value>
+  </data>
+  <data name="&gt;&gt;guna2DateTimePicker2.Name" xml:space="preserve">
+    <value>guna2DateTimePicker2</value>
+  </data>
+  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="guna2DateTimePicker2.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;guna2Button2.Name" xml:space="preserve">
+    <value>guna2Button2</value>
+  </data>
+  <data name="&gt;&gt;Title.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="guna2Button2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 14pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;guna2ComboBox1.Name" xml:space="preserve">
+    <value>guna2ComboBox1</value>
+  </data>
+  <data name="&gt;&gt;guna2TextBox1.Parent" xml:space="preserve">
+    <value>controlPanel</value>
+  </data>
+  <data name="&gt;&gt;guna2ComboBox4.Name" xml:space="preserve">
+    <value>guna2ComboBox4</value>
+  </data>
+  <data name="&gt;&gt;guna2ComboBox5.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2ComboBox, Guna.UI2, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="guna2ComboBox3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10pt</value>
+  </data>
+  <data name="guna2ComboBox1.Items5" xml:space="preserve">
+    <value>الخميس</value>
+  </data>
+  <data name="guna2TextBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="guna2Button3.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;guna2Button2.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="guna2ComboBox5.Items" xml:space="preserve">
+    <value>الأولى</value>
+  </data>
+  <data name="guna2ComboBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 36</value>
+  </data>
+  <data name="guna2TextBox2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10pt</value>
+  </data>
+  <data name="&gt;&gt;guna2ComboBox3.Name" xml:space="preserve">
+    <value>guna2ComboBox3</value>
+  </data>
+  <data name="guna2Button2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>928, 51</value>
+  </data>
+  <data name="&gt;&gt;guna2ComboBox5.Parent" xml:space="preserve">
+    <value>controlPanel</value>
+  </data>
+  <data name="guna2ComboBox5.Items2" xml:space="preserve">
+    <value>الثالثة</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="guna2DateTimePicker1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>42, 461</value>
+  </data>
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
   <data name="&gt;&gt;guna2Elipse2.Name" xml:space="preserve">
     <value>guna2Elipse2</value>
+  </data>
+  <data name="&gt;&gt;guna2ComboBox5.Name" xml:space="preserve">
+    <value>guna2ComboBox5</value>
+  </data>
+  <data name="&gt;&gt;guna2ComboBox4.Parent" xml:space="preserve">
+    <value>controlPanel</value>
+  </data>
+  <data name="guna2ComboBox4.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;guna2DateTimePicker2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;guna2DateTimePicker2.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2DateTimePicker, Guna.UI2, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="pictureBox1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="&gt;&gt;guna2ComboBox5.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="guna2Button1.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;guna2TextBox2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="controlPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 14pt</value>
+  </data>
+  <data name="guna2Button1.Text" xml:space="preserve">
+    <value>إضافة</value>
+  </data>
+  <data name="Title.Location" type="System.Drawing.Point, System.Drawing">
+    <value>538, 1</value>
+  </data>
+  <data name="&gt;&gt;guna2DateTimePicker2.Parent" xml:space="preserve">
+    <value>controlPanel</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 25</value>
+  </data>
+  <data name="guna2ComboBox4.Items" xml:space="preserve">
+    <value>السبت</value>
+  </data>
+  <data name="guna2ComboBox1.Items" xml:space="preserve">
+    <value>السبت</value>
+  </data>
+  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 14pt</value>
+  </data>
+  <data name="&gt;&gt;close.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;guna2Button1.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="guna2TextBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>78, 458</value>
   </data>
   <data name="&gt;&gt;guna2Elipse2.Type" xml:space="preserve">
     <value>Guna.UI2.WinForms.Guna2Elipse, Guna.UI2, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
   </data>
-  <data name="&gt;&gt;guna2Elipse3.Name" xml:space="preserve">
-    <value>guna2Elipse3</value>
+  <data name="&gt;&gt;guna2Elipse1.Name" xml:space="preserve">
+    <value>guna2Elipse1</value>
   </data>
-  <data name="&gt;&gt;guna2Elipse3.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2Elipse, Guna.UI2, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  <data name="Title.Text" xml:space="preserve">
+    <value>نظام حضور</value>
   </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>Attendance</value>
+  <data name="&gt;&gt;guna2TextBox1.Name" xml:space="preserve">
+    <value>guna2TextBox1</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 15</value>
+  </data>
+  <data name="close.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>controlPanel</value>
+  </data>
+  <data name="&gt;&gt;guna2ComboBox3.Parent" xml:space="preserve">
+    <value>controlPanel</value>
+  </data>
+  <data name="&gt;&gt;guna2TextBox2.Parent" xml:space="preserve">
+    <value>controlPanel</value>
+  </data>
+  <data name="Title.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="guna2Button3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 14pt, style=Bold</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>230, 271</value>
+  </data>
+  <data name="guna2ComboBox1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10pt</value>
+  </data>
+  <data name="guna2DateTimePicker1.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="guna2ComboBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 36</value>
+  </data>
+  <data name="close.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1148, 0</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>controlPanel</value>
+  </data>
+  <data name="guna2DataGridView1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>805, 641</value>
+  </data>
+  <data name="close.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 44</value>
+  </data>
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="guna2TextBox1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10pt</value>
+  </data>
+  <data name="guna2Button3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 45</value>
+  </data>
+  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;guna2Button1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Title.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="guna2Button3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>540, 51</value>
+  </data>
+  <data name="guna2Button2.Text" xml:space="preserve">
+    <value>مسح</value>
+  </data>
+  <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 14pt</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>الفرقة</value>
+  </data>
+  <data name="dateTimePicker1.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="guna2ComboBox4.Items5" xml:space="preserve">
+    <value>الخميس</value>
+  </data>
+  <metadata name="guna2Elipse3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>141, 17</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, System.Private.CoreLib, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+    <value>ar-EG</value>
+  </metadata>
+  <metadata name="guna2Elipse2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="guna2Elipse1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
 </root>

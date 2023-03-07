@@ -40,6 +40,7 @@
             this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.Accept = new Guna.UI2.WinForms.Guna2CircleButton();
             this.guna2CircleButton2 = new Guna.UI2.WinForms.Guna2CircleButton();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.SuspendLayout();
             // 
             // guna2HtmlLabel1
@@ -47,7 +48,7 @@
             this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel1.Font = new System.Drawing.Font("Traditional Arabic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.guna2HtmlLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(80)))), ((int)(((byte)(163)))));
-            this.guna2HtmlLabel1.Location = new System.Drawing.Point(12, 12);
+            this.guna2HtmlLabel1.Location = new System.Drawing.Point(12, 47);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
             this.guna2HtmlLabel1.Size = new System.Drawing.Size(23, 39);
             this.guna2HtmlLabel1.TabIndex = 0;
@@ -61,7 +62,7 @@
             this.guna2DateTimePicker1.CustomizableEdges = customizableEdges1;
             this.guna2DateTimePicker1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.guna2DateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.guna2DateTimePicker1.Location = new System.Drawing.Point(52, 15);
+            this.guna2DateTimePicker1.Location = new System.Drawing.Point(52, 50);
             this.guna2DateTimePicker1.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
             this.guna2DateTimePicker1.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.guna2DateTimePicker1.Name = "guna2DateTimePicker1";
@@ -77,7 +78,7 @@
             this.guna2DateTimePicker2.CustomizableEdges = customizableEdges3;
             this.guna2DateTimePicker2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.guna2DateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.guna2DateTimePicker2.Location = new System.Drawing.Point(318, 12);
+            this.guna2DateTimePicker2.Location = new System.Drawing.Point(318, 47);
             this.guna2DateTimePicker2.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
             this.guna2DateTimePicker2.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.guna2DateTimePicker2.Name = "guna2DateTimePicker2";
@@ -91,7 +92,7 @@
             this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel2.Font = new System.Drawing.Font("Traditional Arabic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.guna2HtmlLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(80)))), ((int)(((byte)(163)))));
-            this.guna2HtmlLabel2.Location = new System.Drawing.Point(277, 9);
+            this.guna2HtmlLabel2.Location = new System.Drawing.Point(277, 44);
             this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
             this.guna2HtmlLabel2.Size = new System.Drawing.Size(25, 39);
             this.guna2HtmlLabel2.TabIndex = 2;
@@ -107,7 +108,7 @@
             this.Accept.FillColor = System.Drawing.Color.MediumSeaGreen;
             this.Accept.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Accept.ForeColor = System.Drawing.Color.White;
-            this.Accept.Location = new System.Drawing.Point(65, 97);
+            this.Accept.Location = new System.Drawing.Point(65, 118);
             this.Accept.Name = "Accept";
             this.Accept.ShadowDecoration.CustomizableEdges = customizableEdges5;
             this.Accept.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
@@ -124,7 +125,7 @@
             this.guna2CircleButton2.FillColor = System.Drawing.Color.IndianRed;
             this.guna2CircleButton2.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.guna2CircleButton2.ForeColor = System.Drawing.Color.White;
-            this.guna2CircleButton2.Location = new System.Drawing.Point(327, 97);
+            this.guna2CircleButton2.Location = new System.Drawing.Point(327, 118);
             this.guna2CircleButton2.Name = "guna2CircleButton2";
             this.guna2CircleButton2.ShadowDecoration.CustomizableEdges = customizableEdges6;
             this.guna2CircleButton2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
@@ -133,12 +134,21 @@
             this.guna2CircleButton2.Text = "إلغاء";
             this.guna2CircleButton2.Click += new System.EventHandler(this.guna2CircleButton2_Click);
             // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(80)))), ((int)(((byte)(163)))));
+            this.panel1.Location = new System.Drawing.Point(-2, -1);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(521, 31);
+            this.panel1.TabIndex = 7;
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange;
             this.ClientSize = new System.Drawing.Size(518, 197);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.Accept);
             this.Controls.Add(this.guna2DateTimePicker2);
             this.Controls.Add(this.guna2HtmlLabel2);
@@ -164,5 +174,6 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel2;
         private Guna.UI2.WinForms.Guna2CircleButton Accept;
         private Guna.UI2.WinForms.Guna2CircleButton guna2CircleButton2;
+        private Panel panel1;
     }
 }
