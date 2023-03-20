@@ -27,7 +27,7 @@ namespace Attendance_app.Classes
             return dt;
         }
        
-        public void setData()
+        public void setData(Dictionary<String,String> inputData)
         {
 
         }

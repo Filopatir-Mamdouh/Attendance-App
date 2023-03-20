@@ -9,9 +9,14 @@ namespace Attendance_app.Classes
 {
     class DatabaseConnection
     {
-        protected DatabaseConnection() {
-            SqlConnection con = new SqlConnection("");
-            con.Open();
+        private SqlConnection con;
+        private DatabaseConnection() {
+            con = new SqlConnection("");
+        }
+
+        public SqlConnection Connection() 
+        {
+            return con;
         }
     }
 }
