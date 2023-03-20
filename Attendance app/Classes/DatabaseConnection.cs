@@ -10,7 +10,7 @@ namespace Attendance_app.Classes
     class DatabaseConnection
     {
         private SqlConnection con;
-        private DatabaseConnection() {
+        public DatabaseConnection() {
             con = new SqlConnection("");
         }
 
