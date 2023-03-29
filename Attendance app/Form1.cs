@@ -28,16 +28,6 @@ namespace Attendance_app
             Application.Exit(); ;
         }
 
-        private void guna2ComboBox3_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            if (Dep.SelectedIndex < 2)
-            {
-                Subject.DataSource = s;
-            }
-            else
-            { Subject.DataSource = s2; }
-        }
-
         private void guna2Button4_Click(object sender, EventArgs e)
         {
             var formPopup = new Form2();
@@ -57,7 +47,14 @@ namespace Attendance_app
         {
             Item_Controller controller = new Item_Controller();
             string Query = "INSERT INTO Attendance VALUES ( '" + Day.SelectedItem.ToString() + "' , '" + Name.Text + "' , '" + Dep.SelectedItem.ToString() + "' , '" + Subject.SelectedItem.ToString() + "' , '" + Year.SelectedItem.ToString() + "')";
-            controller.SetData(Query);
+            try
+            {
+                controller.SetData(Query);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
 
         private void Year_SelectedIndexChanged(object sender, EventArgs e)

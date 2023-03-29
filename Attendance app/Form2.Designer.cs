@@ -28,149 +28,149 @@
         /// </summary>
         private void InitializeComponent()
         {
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2DateTimePicker1 = new Guna.UI2.WinForms.Guna2DateTimePicker();
-            this.guna2DateTimePicker2 = new Guna.UI2.WinForms.Guna2DateTimePicker();
-            this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.Accept = new Guna.UI2.WinForms.Guna2CircleButton();
-            this.guna2CircleButton2 = new Guna.UI2.WinForms.Guna2CircleButton();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.SuspendLayout();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges7 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges8 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges9 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges10 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges11 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges12 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            Fromdate = new Guna.UI2.WinForms.Guna2DateTimePicker();
+            ToDate = new Guna.UI2.WinForms.Guna2DateTimePicker();
+            guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            Accept = new Guna.UI2.WinForms.Guna2CircleButton();
+            guna2CircleButton2 = new Guna.UI2.WinForms.Guna2CircleButton();
+            panel1 = new Panel();
+            SuspendLayout();
             // 
             // guna2HtmlLabel1
             // 
-            this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel1.Font = new System.Drawing.Font("Traditional Arabic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.guna2HtmlLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(80)))), ((int)(((byte)(163)))));
-            this.guna2HtmlLabel1.Location = new System.Drawing.Point(12, 47);
-            this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(23, 39);
-            this.guna2HtmlLabel1.TabIndex = 0;
-            this.guna2HtmlLabel1.Text = "مـن";
-            this.guna2HtmlLabel1.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
+            guna2HtmlLabel1.BackColor = Color.Transparent;
+            guna2HtmlLabel1.Font = new Font("Traditional Arabic", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            guna2HtmlLabel1.ForeColor = Color.FromArgb(30, 80, 163);
+            guna2HtmlLabel1.Location = new Point(12, 47);
+            guna2HtmlLabel1.Name = "guna2HtmlLabel1";
+            guna2HtmlLabel1.Size = new Size(23, 39);
+            guna2HtmlLabel1.TabIndex = 0;
+            guna2HtmlLabel1.Text = "مـن";
+            guna2HtmlLabel1.TextAlignment = ContentAlignment.MiddleCenter;
             // 
-            // guna2DateTimePicker1
+            // Fromdate
             // 
-            this.guna2DateTimePicker1.Checked = true;
-            this.guna2DateTimePicker1.CustomFormat = "dddd, dd-MMM-yyyy";
-            this.guna2DateTimePicker1.CustomizableEdges = customizableEdges1;
-            this.guna2DateTimePicker1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.guna2DateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.guna2DateTimePicker1.Location = new System.Drawing.Point(52, 50);
-            this.guna2DateTimePicker1.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
-            this.guna2DateTimePicker1.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
-            this.guna2DateTimePicker1.Name = "guna2DateTimePicker1";
-            this.guna2DateTimePicker1.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            this.guna2DateTimePicker1.Size = new System.Drawing.Size(184, 36);
-            this.guna2DateTimePicker1.TabIndex = 1;
-            this.guna2DateTimePicker1.Value = new System.DateTime(2023, 3, 21, 0, 0, 0, 0);
+            Fromdate.Checked = true;
+            Fromdate.CustomFormat = "dddd, dd-MMM-yyyy";
+            Fromdate.CustomizableEdges = customizableEdges7;
+            Fromdate.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            Fromdate.Format = DateTimePickerFormat.Custom;
+            Fromdate.Location = new Point(52, 50);
+            Fromdate.MaxDate = new DateTime(9998, 12, 31, 0, 0, 0, 0);
+            Fromdate.MinDate = new DateTime(1753, 1, 1, 0, 0, 0, 0);
+            Fromdate.Name = "Fromdate";
+            Fromdate.ShadowDecoration.CustomizableEdges = customizableEdges8;
+            Fromdate.Size = new Size(184, 36);
+            Fromdate.TabIndex = 1;
+            Fromdate.Value = new DateTime(2023, 3, 21, 0, 0, 0, 0);
             // 
-            // guna2DateTimePicker2
+            // ToDate
             // 
-            this.guna2DateTimePicker2.Checked = true;
-            this.guna2DateTimePicker2.CustomFormat = "dddd, dd-MMM-yyyy";
-            this.guna2DateTimePicker2.CustomizableEdges = customizableEdges3;
-            this.guna2DateTimePicker2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.guna2DateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.guna2DateTimePicker2.Location = new System.Drawing.Point(318, 47);
-            this.guna2DateTimePicker2.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
-            this.guna2DateTimePicker2.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
-            this.guna2DateTimePicker2.Name = "guna2DateTimePicker2";
-            this.guna2DateTimePicker2.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            this.guna2DateTimePicker2.Size = new System.Drawing.Size(184, 36);
-            this.guna2DateTimePicker2.TabIndex = 3;
-            this.guna2DateTimePicker2.Value = new System.DateTime(2023, 3, 21, 0, 0, 0, 0);
+            ToDate.Checked = true;
+            ToDate.CustomFormat = "dddd, dd-MMM-yyyy";
+            ToDate.CustomizableEdges = customizableEdges9;
+            ToDate.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            ToDate.Format = DateTimePickerFormat.Custom;
+            ToDate.Location = new Point(318, 47);
+            ToDate.MaxDate = new DateTime(9998, 12, 31, 0, 0, 0, 0);
+            ToDate.MinDate = new DateTime(1753, 1, 1, 0, 0, 0, 0);
+            ToDate.Name = "ToDate";
+            ToDate.ShadowDecoration.CustomizableEdges = customizableEdges10;
+            ToDate.Size = new Size(184, 36);
+            ToDate.TabIndex = 3;
+            ToDate.Value = new DateTime(2023, 3, 21, 0, 0, 0, 0);
             // 
             // guna2HtmlLabel2
             // 
-            this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel2.Font = new System.Drawing.Font("Traditional Arabic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.guna2HtmlLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(80)))), ((int)(((byte)(163)))));
-            this.guna2HtmlLabel2.Location = new System.Drawing.Point(277, 44);
-            this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            this.guna2HtmlLabel2.Size = new System.Drawing.Size(25, 39);
-            this.guna2HtmlLabel2.TabIndex = 2;
-            this.guna2HtmlLabel2.Text = "إلـى";
-            this.guna2HtmlLabel2.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
+            guna2HtmlLabel2.BackColor = Color.Transparent;
+            guna2HtmlLabel2.Font = new Font("Traditional Arabic", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            guna2HtmlLabel2.ForeColor = Color.FromArgb(30, 80, 163);
+            guna2HtmlLabel2.Location = new Point(277, 44);
+            guna2HtmlLabel2.Name = "guna2HtmlLabel2";
+            guna2HtmlLabel2.Size = new Size(25, 39);
+            guna2HtmlLabel2.TabIndex = 2;
+            guna2HtmlLabel2.Text = "إلـى";
+            guna2HtmlLabel2.TextAlignment = ContentAlignment.MiddleCenter;
             // 
             // Accept
             // 
-            this.Accept.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.Accept.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.Accept.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.Accept.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.Accept.FillColor = System.Drawing.Color.MediumSeaGreen;
-            this.Accept.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.Accept.ForeColor = System.Drawing.Color.White;
-            this.Accept.Location = new System.Drawing.Point(65, 118);
-            this.Accept.Name = "Accept";
-            this.Accept.ShadowDecoration.CustomizableEdges = customizableEdges5;
-            this.Accept.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.Accept.Size = new System.Drawing.Size(145, 64);
-            this.Accept.TabIndex = 5;
-            this.Accept.Text = "تأكيد";
+            Accept.DisabledState.BorderColor = Color.DarkGray;
+            Accept.DisabledState.CustomBorderColor = Color.DarkGray;
+            Accept.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            Accept.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            Accept.FillColor = Color.MediumSeaGreen;
+            Accept.Font = new Font("Times New Roman", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
+            Accept.ForeColor = Color.White;
+            Accept.Location = new Point(65, 118);
+            Accept.Name = "Accept";
+            Accept.ShadowDecoration.CustomizableEdges = customizableEdges11;
+            Accept.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            Accept.Size = new Size(145, 64);
+            Accept.TabIndex = 5;
+            Accept.Text = "تأكيد";
+            Accept.Click += Accept_Click;
             // 
             // guna2CircleButton2
             // 
-            this.guna2CircleButton2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2CircleButton2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2CircleButton2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2CircleButton2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2CircleButton2.FillColor = System.Drawing.Color.IndianRed;
-            this.guna2CircleButton2.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.guna2CircleButton2.ForeColor = System.Drawing.Color.White;
-            this.guna2CircleButton2.Location = new System.Drawing.Point(327, 118);
-            this.guna2CircleButton2.Name = "guna2CircleButton2";
-            this.guna2CircleButton2.ShadowDecoration.CustomizableEdges = customizableEdges6;
-            this.guna2CircleButton2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CircleButton2.Size = new System.Drawing.Size(145, 64);
-            this.guna2CircleButton2.TabIndex = 6;
-            this.guna2CircleButton2.Text = "إلغاء";
-            this.guna2CircleButton2.Click += new System.EventHandler(this.guna2CircleButton2_Click);
+            guna2CircleButton2.DisabledState.BorderColor = Color.DarkGray;
+            guna2CircleButton2.DisabledState.CustomBorderColor = Color.DarkGray;
+            guna2CircleButton2.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            guna2CircleButton2.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            guna2CircleButton2.FillColor = Color.IndianRed;
+            guna2CircleButton2.Font = new Font("Times New Roman", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
+            guna2CircleButton2.ForeColor = Color.White;
+            guna2CircleButton2.Location = new Point(327, 118);
+            guna2CircleButton2.Name = "guna2CircleButton2";
+            guna2CircleButton2.ShadowDecoration.CustomizableEdges = customizableEdges12;
+            guna2CircleButton2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            guna2CircleButton2.Size = new Size(145, 64);
+            guna2CircleButton2.TabIndex = 6;
+            guna2CircleButton2.Text = "إلغاء";
+            guna2CircleButton2.Click += guna2CircleButton2_Click;
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(80)))), ((int)(((byte)(163)))));
-            this.panel1.Location = new System.Drawing.Point(-2, -1);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(521, 31);
-            this.panel1.TabIndex = 7;
+            panel1.BackColor = Color.FromArgb(30, 80, 163);
+            panel1.Location = new Point(-2, -1);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(521, 31);
+            panel1.TabIndex = 7;
             // 
             // Form2
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange;
-            this.ClientSize = new System.Drawing.Size(518, 197);
-            this.Controls.Add(this.panel1);
-            this.Controls.Add(this.Accept);
-            this.Controls.Add(this.guna2DateTimePicker2);
-            this.Controls.Add(this.guna2HtmlLabel2);
-            this.Controls.Add(this.guna2DateTimePicker1);
-            this.Controls.Add(this.guna2HtmlLabel1);
-            this.Controls.Add(this.guna2CircleButton2);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Form2";
-            this.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.RightToLeftLayout = true;
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "popupForm";
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            AutoValidate = AutoValidate.EnablePreventFocusChange;
+            ClientSize = new Size(518, 197);
+            Controls.Add(panel1);
+            Controls.Add(Accept);
+            Controls.Add(ToDate);
+            Controls.Add(guna2HtmlLabel2);
+            Controls.Add(Fromdate);
+            Controls.Add(guna2HtmlLabel1);
+            Controls.Add(guna2CircleButton2);
+            FormBorderStyle = FormBorderStyle.None;
+            Name = "Form2";
+            RightToLeft = RightToLeft.Yes;
+            RightToLeftLayout = true;
+            StartPosition = FormStartPosition.CenterParent;
+            Text = "popupForm";
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
 
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
-        private Guna.UI2.WinForms.Guna2DateTimePicker guna2DateTimePicker1;
-        private Guna.UI2.WinForms.Guna2DateTimePicker guna2DateTimePicker2;
+        private Guna.UI2.WinForms.Guna2DateTimePicker Fromdate;
+        private Guna.UI2.WinForms.Guna2DateTimePicker ToDate;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel2;
         private Guna.UI2.WinForms.Guna2CircleButton Accept;
         private Guna.UI2.WinForms.Guna2CircleButton guna2CircleButton2;
