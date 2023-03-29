@@ -10,26 +10,39 @@ namespace Attendance_app.Classes
 {
     internal class Item_Controller : DatabaseConnection
     {
-        private string query;
         private SqlCommand cmd;
         private DataTable dt;
         private SqlDataAdapter sda;
-        private string constr;
-        private SqlConnection DatabaseConnection()
+        private SqlConnection con;
+#pragma warning disable CS8618 // Non-nullable field must contain a non-null value when exiting constructor. Consider declaring as nullable.
+        public Item_Controller()
+#pragma warning restore CS8618 // Non-nullable field must contain a non-null value when exiting constructor. Consider declaring as nullable.
         {
-            throw new NotImplementedException();
+            DatabaseConnection database = new DatabaseConnection();
+            con = database.Connection();
+            cmd = new SqlCommand();
+            cmd.Connection = con;
         }
-        public DataTable display()
+
+        public DataTable Display(String query)
         {
-            query = "Select * From table";
             DataTable dt = new DataTable();
-            sda = new SqlDataAdapter(query, DatabaseConnection());
+            sda = new SqlDataAdapter(query, con);
+            sda.Fill(dt);
             return dt;
         }
        
-        public void setData(Dictionary<String,String> inputData)
+        public int SetData(String Query)
         {
-
+            int cnt = 0;
+            if (con.State == ConnectionState.Closed)
+            {
+                con.Open();
+            }
+            cmd.CommandText = Query;
+            cnt = cmd.ExecuteNonQuery();
+            con.Close();
+            return cnt;
         }
     }
 }
