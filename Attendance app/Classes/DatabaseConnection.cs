@@ -11,8 +11,7 @@ namespace Attendance_app.Classes
     {
         private SqlConnection con;
         public DatabaseConnection() {
-            con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=""Resources\Database.mdf"";Integrated Security=True;User ID=OMostafa;Password=***********;Connect Timeout=30");
-            MessageBox.Show(con.ToString());
+            con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=""D:\Filo's Study\Attendance app\Attendance app\Resources\Database.mdf"";Integrated Security=True;User ID=OMostafa;Connect Timeout=30");
         }
 
         public SqlConnection Connection() 

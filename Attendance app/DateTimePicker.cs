@@ -12,9 +12,9 @@ using System.Windows.Forms;
 
 namespace Attendance_app
 {
-    public partial class Form2 : Form
+    public partial class DateTimePicker : Form
     {
-        public Form2()
+        public DateTimePicker()
         {
             InitializeComponent();
         }

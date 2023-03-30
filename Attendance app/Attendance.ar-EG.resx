@@ -58,6 +58,12 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="controlPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>865, 132</value>
+  </data>
+  <data name="controlPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>306, 602</value>
+  </data>
   <data name="Add.Font" type="System.Drawing.Font, System.Drawing">
     <value>Times New Roman, 14pt, style=Bold</value>
   </data>
@@ -121,12 +127,6 @@
   </data>
   <data name="Name.Size" type="System.Drawing.Size, System.Drawing">
     <value>168, 41</value>
-  </data>
-  <data name="controlPanel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>865, 132</value>
-  </data>
-  <data name="controlPanel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>306, 602</value>
   </data>
   <data name="guna2DataGridView1.Size" type="System.Drawing.Size, System.Drawing">
     <value>818, 641</value>

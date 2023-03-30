@@ -8,8 +8,8 @@ namespace Attendance_app.Classes
 {
     static class Global
     {
-        private static DateTime _startDate;
-        private static DateTime _endDate;
+        private static DateTime _startDate = DateTime.Now;
+        private static DateTime _endDate = _startDate.AddDays(1);
 
         public static DateTime StartDate
         {

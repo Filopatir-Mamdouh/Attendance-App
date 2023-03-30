@@ -1,6 +1,6 @@
 ﻿namespace Attendance_app
 {
-    partial class Form2
+    partial class DateTimePicker
     {
         /// <summary>
         /// Required designer variable.
@@ -28,12 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges7 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges8 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges9 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges10 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges11 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges12 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             Fromdate = new Guna.UI2.WinForms.Guna2DateTimePicker();
             ToDate = new Guna.UI2.WinForms.Guna2DateTimePicker();
@@ -57,37 +57,32 @@
             // 
             // Fromdate
             // 
-            Fromdate.AutoRoundedCorners = true;
-            Fromdate.BackColor = Color.Transparent;
-            Fromdate.BorderRadius = 17;
             Fromdate.Checked = true;
             Fromdate.CustomFormat = "dddd, dd-MMM-yyyy";
-            Fromdate.CustomizableEdges = customizableEdges1;
+            Fromdate.CustomizableEdges = customizableEdges7;
             Fromdate.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
             Fromdate.Format = DateTimePickerFormat.Custom;
             Fromdate.Location = new Point(52, 50);
             Fromdate.MaxDate = new DateTime(9998, 12, 31, 0, 0, 0, 0);
             Fromdate.MinDate = new DateTime(1753, 1, 1, 0, 0, 0, 0);
             Fromdate.Name = "Fromdate";
-            Fromdate.ShadowDecoration.CustomizableEdges = customizableEdges2;
+            Fromdate.ShadowDecoration.CustomizableEdges = customizableEdges8;
             Fromdate.Size = new Size(184, 36);
             Fromdate.TabIndex = 1;
             Fromdate.Value = new DateTime(2023, 3, 21, 0, 0, 0, 0);
             // 
             // ToDate
             // 
-            ToDate.AutoRoundedCorners = true;
-            ToDate.BorderRadius = 17;
             ToDate.Checked = true;
             ToDate.CustomFormat = "dddd, dd-MMM-yyyy";
-            ToDate.CustomizableEdges = customizableEdges3;
+            ToDate.CustomizableEdges = customizableEdges9;
             ToDate.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
             ToDate.Format = DateTimePickerFormat.Custom;
             ToDate.Location = new Point(318, 47);
             ToDate.MaxDate = new DateTime(9998, 12, 31, 0, 0, 0, 0);
             ToDate.MinDate = new DateTime(1753, 1, 1, 0, 0, 0, 0);
             ToDate.Name = "ToDate";
-            ToDate.ShadowDecoration.CustomizableEdges = customizableEdges4;
+            ToDate.ShadowDecoration.CustomizableEdges = customizableEdges10;
             ToDate.Size = new Size(184, 36);
             ToDate.TabIndex = 3;
             ToDate.Value = new DateTime(2023, 3, 21, 0, 0, 0, 0);
@@ -115,7 +110,7 @@
             Accept.ForeColor = Color.White;
             Accept.Location = new Point(65, 118);
             Accept.Name = "Accept";
-            Accept.ShadowDecoration.CustomizableEdges = customizableEdges5;
+            Accept.ShadowDecoration.CustomizableEdges = customizableEdges11;
             Accept.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             Accept.Size = new Size(145, 64);
             Accept.TabIndex = 5;
@@ -133,7 +128,7 @@
             guna2CircleButton2.ForeColor = Color.White;
             guna2CircleButton2.Location = new Point(327, 118);
             guna2CircleButton2.Name = "guna2CircleButton2";
-            guna2CircleButton2.ShadowDecoration.CustomizableEdges = customizableEdges6;
+            guna2CircleButton2.ShadowDecoration.CustomizableEdges = customizableEdges12;
             guna2CircleButton2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             guna2CircleButton2.Size = new Size(145, 64);
             guna2CircleButton2.TabIndex = 6;

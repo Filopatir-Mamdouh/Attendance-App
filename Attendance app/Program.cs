@@ -2,8 +2,6 @@ namespace Attendance_app
 {
     internal static class Program
     {
-        static DateTime startdate;
-        static DateTime EndDate;
         /// <summary>
         ///  The main entry point for the application.
         /// </summary>
